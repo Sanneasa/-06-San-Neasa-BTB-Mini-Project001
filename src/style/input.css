@@ -1,0 +1,7 @@
+@import "flowbite/src/themes/default";
+@import "tailwindcss";
+
+
+.container {
+    @apply max-w-screen-xl mx-auto
+}

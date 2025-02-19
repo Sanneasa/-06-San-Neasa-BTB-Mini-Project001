@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <linkhref
+      ="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/style/output.css" />
+    <title>Page 2</title>
+  </head>
+  <body>
+    <div class="w-full">
+      <header>
+        <nav class="bg-white border-gray-200 dark:bg-gray-300">
+          <div
+            class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4"
+          >
+            <a
+              href="./images/Group 111.png"
+              class="flex items-center space-x-3 rtl:space-x-reverse"
+            >
+              <span
+                class="self-center text-2xl font-semibold whitespace-nowrap"
+              >
+                <img src="./images/Group 235.png" alt="logo" />
+              </span>
+            </a>
+            <div
+              class="flex items-center md:order-2 md:space-x-2 rtl:space-x-reverse"
+            >
+              <button
+                type="button"
+                class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+                id="user-menu-button"
+                aria-expanded="false"
+                data-dropdown-toggle="user-dropdown"
+                data-dropdown-placement="bottom"
+              >
+                <span class="sr-only">Open user menu</span>
+                <img
+                  class="w-13 h-13 rounded-full"
+                  src="./images/Lina12.png"
+                  alt="user photo"
+                  style="background-color: rgb(149, 148, 148)"
+                />
+              </button>
+              <div class="pl-3 flex justify-between items-center gap-1">
+                <p>Lina</p>
+                <svg
+                  width="13"
+                  height="8"
+                  viewBox="0 0 13 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.02734 7.66016C6.34375 7.97656 6.87109 7.97656 7.1875 7.66016L11.9688 2.87891C12.3203 2.52734 12.3203 2 11.9688 1.68359L11.1953 0.875C10.8438 0.558594 10.3164 0.558594 10 0.875L6.58984 4.28516L3.21484 0.875C2.89844 0.558594 2.37109 0.558594 2.01953 0.875L1.24609 1.68359C0.894531 2 0.894531 2.52734 1.24609 2.87891L6.02734 7.66016Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+              id="navbar-user"
+            >
+              <ul
+                class="flex flex-col font-normal p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-300 md:dark:bg-gray-300 dark:border-gray-300"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 px-3 text-white"
+                    aria-current="page"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="block py-2 px-3 text-gray-600">About</a>
+                </li>
+                <li>
+                  <a href="#" class="block py-2 px-3 text-gray-600">Services</a>
+                </li>
+                <li>
+                  <a href="#" class="block py-2 px-3 text-gray-600">Pricing</a>
+                </li>
+                <li>
+                  <a href="#" class="block py-2 px-3 text-gray-600">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="container">
+        <div class="w-full flex justify-between pt-20">
+          <div class="h-[750px] w-[800px] pt-10 p-15 rounded-lg shadow-xl">
+            <div class="py-10">
+              <p class="text-4xl font-bold py-4 text-gray-900 dark:text-white">
+                Checkout
+              </p>
+              <p class="text-xl font-bold text-gray-600 py-2">Cart Type</p>
+              <div class="flex gap-2.5">
+                <img
+                  class="border-gray-500"
+                  src="./images/Group 307.png"
+                  alt="p"
+                />
+
+                <img
+                  class="rounded-xl w-[140px] h-[95px] border-gray-500"
+                  src="./images/america.jpeg"
+                  alt="amerca"
+                />
+
+                <img
+                  class="rounded-xl w-[140px] h-[95px] border border-gray-500"
+                  src="./images/visa.png"
+                  alt="amerca"
+                />
+
+                <div
+                  class="rounded-xl w-[140px] h-[95px] border border-gray-500 bg-white flex justify-center items-center relative"
+                >
+                  <img
+                    class="w-[40px] h-[40px] absolute left-[50px] z-10"
+                    src="./images/yellow.png"
+                    alt="yellow"
+                  />
+                  <img
+                    class="w-[40px] h-[40px] absolute left-[35px]"
+                    src="./images/red.png"
+                    alt="red"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <form class="space-y-6" action="#">
+              <div>
+                <label
+                  for="email"
+                  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  >Name on Card</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
+                  placeholder="Enter name on card"
+                  required
+                />
+              </div>
+              <div>
+                <label
+                  for="password"
+                  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  >Card Number</label
+                >
+                <input
+                  type="text"
+                  name="card-number"
+                  id="card-number"
+                  placeholder="Enter Card Number"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg blue-500 block w-full p-2.5"
+                  required
+                />
+              </div>
+
+              <div class="flex justify-between gap-5">
+                <div>
+                  <label
+                    for="password"
+                    class="block mb-2 text-sm font-medium text-gray-900"
+                    >Expiration Date(MM/YY)</label
+                  >
+                  <input
+                    type="text"
+                    name="text"
+                    id="text-date"
+                    placeholder="Enter Expiration Date"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[300px] p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                    required
+                  />
+                </div>
+                <div>
+                  <label
+                    for="text"
+                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                    >CVC</label
+                  >
+                  <input
+                    type="text"
+                    name="text-cvc"
+                    id="cvc"
+                    placeholder="Enter CVC"
+                    class="bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:border-blue-500 block w-[250px] p-2.5"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="flex items-start">
+                <div class="flex items-start">
+                  <div class="flex items-center h-5">
+                    <input
+                      id="cvc"
+                      type="checkbox"
+                      value=""
+                      class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50"
+                      required
+                    />
+                  </div>
+                  <label for="remember" class="ms-2 text-sm text-gray-500"
+                    >Save my information for faster checkout</label
+                  >
+                </div>
+              </div>
+              <button
+                type="submit"
+                class="w-full text-white bg-[#49BBBD] font-medium rounded-lg text-sm px-5 py-4 text-center"
+              >
+                Conform Payment
+              </button>
+            </form>
+          </div>
+          <!-- Summary -->
+          <div
+            class="w-full h-[600px] max-w-md p-5 bg-[#c8dcf2ce] border border-gray-200 rounded-lg shadow-sm"
+          >
+            <div class="flex items-center mb-4">
+              <h5 class="text-xl leading-none text-gray-900">Summary</h5>
+            </div>
+            <div class="flow-root">
+              <ul
+                role="list"
+                class="divide-y divide-gray-200 dark:divide-gray-700"
+              >
+                <li class="py-3 sm:py-4">
+                  <div class="flex items-center gap-5">
+                    <img
+                      class="w-40 h-25 rounded-2xl"
+                      src="/src/images/students.jpeg"
+                      alt="Neil image"
+                    />
+
+                    <div class="w-[230px]">
+                      <p class="text-sm font-medium text-gray-600 truncate">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        <br />
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s
+                      </p>
+                      <div
+                        class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white"
+                      >
+                        $320
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-3 sm:py-4">
+                  <div class="flex items-center gap-5">
+                    <img
+                      class="w-40 h-25 rounded-2xl"
+                      src="/src/images/students.jpeg"
+                      alt="Neil image"
+                    />
+
+                    <div class="w-[230px]">
+                      <p class="text-sm font-medium text-gray-600 truncate">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        <br />
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s
+                      </p>
+                      <div
+                        class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white"
+                      >
+                        $320
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-3 sm:py-4">
+                  <div class="flex justify-between">
+                    <p class="text-xl font-bold text-gray-500">Subtotal</p>
+                    <p class="text-xl font-bold text-gray-500">$51.38</p>
+                  </div>
+                </li>
+                <li class="py-3 sm:py-4">
+                  <div class="flex justify-between">
+                    <p class="text-xl font-bold text-gray-500">
+                      Coupon Discount
+                    </p>
+                    <p class="text-xl font-bold text-gray-500">0 %</p>
+                  </div>
+                </li>
+                <li class="py-3 sm:py-4">
+                  <div class="flex justify-between">
+                    <p class="text-xl font-bold text-gray-500">TAX</p>
+                    <p class="text-xl font-bold text-gray-500">5</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="flex justify-between">
+                    <p class="text-xl font-bold text-gray-900">Total</p>
+                    <p class="text-xl font-bold text-gray-900">$56.38</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top deducation offers -->
+        <div class="py-20 flex justify-between w-full">
+          <p class="font-bold">To Education offers and deals are listed here</p>
+          <p class="font-bold text-[#49BBBD]">See all</p>
+        </div>
+
+        <!-- Card To Education offers -->
+        <div class="flex justify-between gap-8">
+          <div
+            class="bg-[url(/src/images/card.png)] bg-cover h-[400px] w-[400px] rounded-xl mb-10 relative"
+          >
+            <div class="w-full h-full bg-gray-900/40 rounded-xl">
+              <div
+                class="rounded-2xl bg-[#49BBBD] h-[100px] w-[100px] flex justify-center items-center absolute left-12 top-10"
+              >
+                <p class="font-bold text-3xl text-white">50%</p>
+              </div>
+
+              <div class="absolute left-12 top-40">
+                <p class="items-center text-white text-2xl font-bold py-2">
+                  It is a long established fact
+                </p>
+                <p class="items-center text-white text-xl py-2">
+                  It is a long established fact
+                </p>
+                <p class="items-center text-white text-xl py-2">
+                  It is a long established fact
+                </p>
+                <p class="items-center text-white text-xl py-2">
+                  It is a long established fact
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of education -->
+
+          <!-- Second card -->
+          <div
+            class="bg-[url(/src/images/cute.png)] bg-cover h-[400px] w-[400px] rounded-xl mb-10 relative"
+          >
+            <div class="w-full h-full bg-gray-900/40 rounded-xl">
+              <div
+                class="rounded-2xl bg-[#49BBBD] h-[100px] w-[100px] flex justify-center items-center absolute left-12 top-10"
+              >
+                <p class="font-bold text-3xl text-white">10%</p>
+              </div>
+              <div class="absolute left-12 top-40">
+                <p class="items-center text-white text-2xl font-bold py-2">
+                  It is a long established fact
+                </p>
+                <p class="items-center text-white text-xl py-2">
+                  It is a long established fact
+                </p>
+                <p class="items-center text-white text-xl py-2">
+                  It is a long established fact
+                </p>
+                <p class="items-center text-white text-xl py-2">
+                  It is a long established fact
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- thid card -->
+          <div
+            class="bg-[url(/src/images/cat.png)] bg-cover h-[400px] w-[400px] rounded-xl mb-10 relative"
+          >
+            <div class="w-full h-full bg-gray-900/40 rounded-xl">
+              <div
+                class="rounded-2xl bg-[#49BBBD] h-[100px] w-[100px] flex justify-center items-center absolute left-12 top-10"
+              >
+                <p class="font-bold text-3xl text-white">50%</p>
+              </div>
+
+              <div class="absolute left-12 top-40">
+                <p class="items-center text-white text-2xl font-bold py-2">
+                  It is a long established fact
+                </p>
+                <p class="items-center text-white text-xl py-2">
+                  It is a long established fact
+                </p>
+                <p class="items-center text-white text-xl py-2">
+                  It is a long established fact
+                </p>
+                <p class="items-center text-white text-xl py-2">
+                  It is a long established fact
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of card -->
+      </section>
+
+      <!-- fonter -->
+      <footer
+        class="w-full bg-[#252641] p-24 flex flex-col items-center justify-center"
+      >
+        <div class="w-[350px] flex justify-center">
+          <div class="w-full flex justify-between gap-3.5 pb-4">
+            <div>
+              <a href="#">
+                <img
+                  class="text-white"
+                  src="/src/images/Group 111.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img class="text-white" src="/src/images/Line 10.png" alt="" />
+              </a>
+            </div>
+
+            <div class="text-white font-bold">
+              <p>Virtual Class <br />for Zoom</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full p-10 flex justify-center items-center text-gray-400 text-2xl"
+        >
+          <p>Subscrible to get Our Newslet</p>
+        </div>
+
+        <div class="flex justify-between gap-7">
+          <form class="max-w-sm mx-auto">
+            <div class="mb-5">
+              <input
+                type="email"
+                id="email"
+                class="text-gray-300 text-sm bg-[#252641] border border-gray-300 rounded-4xl px-8"
+                placeholder="Email"
+                required
+              />
+            </div>
+          </form>
+          <div>
+            <a
+              href="#"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#49BBBD] rounded-2xl"
+            >
+              Subscrible
+            </a>
+          </div>
+        </div>
+
+        <div class="flex gap-2 py-5">
+          <p class="text-gray-400">Careers</p>
+          <div>
+            <img src="./images/Line 11.png" alt="" />
+          </div>
+          <p class="text-gray-400">Privacy Policy</p>
+          <div>
+            <img src="./images/Line 11.png" alt="" />
+          </div>
+          <p class="text-gray-400">Terms & Condition</p>
+        </div>
+
+        <div class="text-gray-400">
+          <p>©️ 2021 Class technologies Inc.</p>
+        </div>
+      </footer>
+      <!-- end of footer -->
+    </div>
+  </body>
+</html>
